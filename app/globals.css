@@ -243,6 +243,11 @@ ul {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.015));
   backdrop-filter: blur(18px);
   box-shadow: var(--shadow);
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease,
+    box-shadow 180ms ease,
+    background 180ms ease;
 }
 
 .hero-card {
@@ -349,6 +354,11 @@ ul {
   border-radius: 22px;
   border: 1px solid rgba(255, 255, 255, 0.08);
   background: rgba(255, 255, 255, 0.035);
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease,
+    background 180ms ease,
+    box-shadow 180ms ease;
 }
 
 .hero-balance-card span {
@@ -430,6 +440,10 @@ ul {
   background: rgba(255, 255, 255, 0.04);
   color: var(--muted);
   font-size: 0.9rem;
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease,
+    background 180ms ease;
 }
 
 .profile-chip-below {
@@ -558,6 +572,10 @@ ul {
   background: rgba(255, 255, 255, 0.04);
   border: 1px solid rgba(255, 255, 255, 0.08);
   color: #dbe6f5;
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease,
+    background 180ms ease;
 }
 
 .info-grid {
@@ -723,6 +741,41 @@ ul {
   border: 1px solid rgba(255, 255, 255, 0.08);
   color: #f7ddb4;
   font-size: 0.9rem;
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease,
+    background 180ms ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .hero-card.block-reveal.is-visible:hover,
+  .story-card.block-reveal.is-visible:hover,
+  .skill-card.block-reveal.is-visible:hover,
+  .education-card.block-reveal.is-visible:hover,
+  .contact-card.block-reveal.is-visible:hover,
+  .stat-card.block-reveal.is-visible:hover,
+  .profile-card:hover,
+  .hero-balance-card:hover {
+    transform: translateY(-4px) scale(1.012);
+    border-color: rgba(255, 255, 255, 0.16);
+    box-shadow: 0 34px 90px rgba(0, 0, 0, 0.38);
+  }
+
+  .project-card.block-reveal.is-visible:hover,
+  .timeline-card.block-reveal.is-visible:hover {
+    transform: translateY(-8px) scale(1.018);
+    border-color: rgba(255, 255, 255, 0.18);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.025));
+    box-shadow: 0 40px 100px rgba(0, 0, 0, 0.42);
+  }
+
+  .profile-chip:hover,
+  .orbit-panel span:hover,
+  .chip:hover {
+    transform: translateY(-2px) scale(1.03);
+    border-color: rgba(255, 255, 255, 0.16);
+    background: rgba(255, 255, 255, 0.08);
+  }
 }
 
 .skill-grid {

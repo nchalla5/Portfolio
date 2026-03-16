@@ -112,7 +112,7 @@ export const projects = [
     link: "https://github.com/nchalla5/BookMart",
     tag: "Full-stack commerce",
     description:
-      "Used-book marketplace that combines a Go backend with a responsive React frontend for listings, authentication, selling flows, and checkout.",
+      "Full-stack commerce platform built with Go and React, featuring authentication, product listings, seller workflows, and an end-to-end checkout experience.",
     stack: ["Go", "React", "JWT", "DynamoDB", "S3", "REST APIs"],
   },
   {
@@ -149,7 +149,7 @@ export const education = [
   },
   {
     degree: "Bachelors in Computer Science and Engineering",
-    school: "Osmania University (Vasavi College of Engineering)",
+    school: "Osmania University, Vasavi College of Engineering",
     location: "Hyderabad, India",
   },
 ];

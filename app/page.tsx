@@ -181,7 +181,7 @@ export default function Home() {
           <p className="section-label">GitHub pulse</p>
           <h2>Shipping across multiple domains.</h2>
           <p>
-            Public work spans backend services, machine learning, frontend applications, and desktop tooling, with
+            Personal projects span backend services, machine learning, frontend applications, and desktop tooling, with
             recent activity across {githubFacts.recent.join(", ")}.
           </p>
         </article>
@@ -221,7 +221,7 @@ export default function Home() {
 
       <section className="section" id="projects">
         <div className="section-heading block-reveal reveal-up">
-          <p className="section-label">Selected Work</p>
+          <p className="section-label">Projects</p>
           <h2>Projects that show range.</h2>
         </div>
         <div className="project-grid">
@@ -301,7 +301,7 @@ export default function Home() {
             <a className="button button-primary" href={`mailto:${profile.email}`}>
               {profile.email}
             </a>
-            <a className="button button-secondary" href={profile.github} target="_blank" rel="noreferrer">
+            <a className="button button-primary" href={profile.github} target="_blank" rel="noreferrer">
               github.com/nchalla5
             </a>
           </div>
