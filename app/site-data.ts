@@ -4,7 +4,7 @@ export const profile = {
   location: "Seattle, Washington",
   relocation: "Open to relocation",
   phone: "602-552-3024",
-  email: "nithin.challa.email@gmail.com",
+  email: "challa.nithin.email@gmail.com",
   github: "https://github.com/nchalla5",
   linkedin: "https://www.linkedin.com/in/nithin-challa",
   hero:
