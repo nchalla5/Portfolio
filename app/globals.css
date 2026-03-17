@@ -300,12 +300,11 @@ ul {
 
 .hero-copy h1 {
   margin-top: 12px;
-  font-family: var(--font-display), serif;
+  font-family: var(--font-serif), serif;
   font-size: clamp(2.3rem, 5.1vw, 4.15rem);
   line-height: 0.98;
-  letter-spacing: -0.025em;
+  letter-spacing: -0.04em;
   max-width: 13ch;
-  font-weight: 600;
 }
 
 .hero-copy h1 span {
