@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Space_Grotesk, Playfair_Display } from "next/font/google";
+import { Cormorant_Garamond, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 
 const spaceGrotesk = Space_Grotesk({
@@ -7,9 +7,10 @@ const spaceGrotesk = Space_Grotesk({
   variable: "--font-sans",
 });
 
-const playfairDisplay = Playfair_Display({
+const cormorantGaramond = Cormorant_Garamond({
   subsets: ["latin"],
-  variable: "--font-serif",
+  variable: "--font-display",
+  weight: ["500", "600", "700"],
   style: ["normal", "italic"],
 });
 
@@ -26,10 +27,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${spaceGrotesk.variable} ${playfairDisplay.variable}`}>
+      <body className={`${spaceGrotesk.variable} ${cormorantGaramond.variable}`}>
         {children}
       </body>
     </html>
   );
 }
-
