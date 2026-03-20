@@ -8,9 +8,9 @@ export const profile = {
   github: "https://github.com/nchalla5",
   linkedin: "https://www.linkedin.com/in/nithin-challa",
   hero:
-    "I build reliable backend systems, scalable cloud infrastructure, and polished product experiences.",
+    "Software engineer with experience building scalable platforms, backend services, and end-to-end products across cloud-native and full-stack environments.",
   summary:
-    "Go, Java, APIs, and distributed systems with a track record of reducing latency, improving reliability, and shipping production-ready platforms.",
+    "My work spans backend engineering, distributed systems, cloud infrastructure, and product development, with a focus on performance, reliability, and thoughtful execution.",
   bio: "Software Engineer building reliable backend systems, cloud infrastructure, and polished products.",
 };
 
